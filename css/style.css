@@ -28,9 +28,11 @@ body, div, h1, h2, h3, h4, h5, h6, p, ul, ol, textarea, blockquote {
 }
 
 
+/*
 .topnav li:nth-last-child(5) {
  margin-right:70%; 
 }
+*/
 
 body {
 	background: #f7f4ed;
