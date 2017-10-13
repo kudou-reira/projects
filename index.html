@@ -349,9 +349,9 @@
 <div id="content">
 
   <h3 id="p2">Tokyo Rent Finder (Potential Issues)</h3>
-  <p>I've found out that heroku automatically times out after a set time (30s). Since the node.js takes a while to scrape the data across all sites, I'll be looking into this error further.</p>
-  <p>I've implemented node.js clustering for the sake of improving processing speed, but there may be incidents of time-outs if the job in question takes over 30 seconds.</p>
-  <p>For current demo purposes, please select only GaijinPot as a search parameter if you receive a timeout error (503). The current research I've come across has recommended background processing requests or false redirects, but it might just come down to heroku's free model.</p>
+  <p>I've found out that heroku automatically times out after a set time (30s). Since the backend (node.js) takes a while to scrape the data across all sites, I'll be looking into this error further.</p>
+  <p>I've implemented node.js clustering for the sake of improving the processing speed, but there may be incidents of time-outs if the job in question takes over 30 seconds. It is also dependent on the amount of cores your PC has.</p>
+  <p>For current demo purposes, please select only GaijinPot as a search parameter if you receive a timeout error (503). The current research I've come across has recommended background processing requests or false redirects, but this error might be unresolved due to the limitations of heroku's free model.</p>
 </div>
 
 <div id="content">
