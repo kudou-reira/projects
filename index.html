@@ -352,6 +352,7 @@
   <p>I've found out that heroku automatically times out after a set time (30s). Since the backend (node.js) takes a while to scrape the data across all sites, I'll be looking into this error further.</p>
   <p>I've implemented node.js clustering for the sake of improving the processing speed, but there may be incidents of time-outs if the job in question takes over 30 seconds. It is also dependent on the amount of cores your PC has.</p>
   <p>For current demo purposes, please select only GaijinPot as a search parameter if you receive a timeout error (503). The current research I've come across has recommended background processing requests or false redirects, but this error might be unresolved due to the limitations of heroku's free model.</p>
+  <p>If you would like to see the full app, please clone it from the source code linked above and run it locally with 'npm run dev' from the root file.</p>
 </div>
 
 <div id="content">
