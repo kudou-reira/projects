@@ -308,9 +308,6 @@
     <p>A tool that I made to scrape various Japanese rental agency webpages</p>
     <p>(By far the most complex project I've worked on...still working on building out more websites to scrape/UI)</p>
     <p>Technology Used: Create-React-App, React, Redux, Redux-Thunk, Node, Express, MongoDB, Cheerio, Async Library, Passport, OAuth</p>
-    <p>I've found out that heroku automatically times out after a set time (30s). Since the node.js takes a while to scrape all the data across sites, I'll be looking into this error further.</p>
-    <p>I've implemented node.js clustering for the sake of improving process speed, but there may be incidents of time-outs.</p>
-    <p>For current demo purposes, please select only GaijinPot as a search parameter if you receive a timeout error (503)</p>
     <p class="btn"><a href="http://rent-japan.herokuapp.com/">See here</a>
     <p class="btn"><a href="https://github.com/kudou-reira/nodeScrape">Source Code</a>
   </div>
@@ -347,6 +344,14 @@
     <p class="btn"><a href="https://github.com/kudou-reira/markBin">Source Code</a>
   </div>
   
+</div>
+
+<div id="content">
+
+  <h3 id="p2">Tokyo Rent Finder (Potential Issues)</h3>
+  <p>I've found out that heroku automatically times out after a set time (30s). Since the node.js takes a while to scrape the data across all sites, I'll be looking into this error further.</p>
+  <p>I've implemented node.js clustering for the sake of improving processing speed, but there may be incidents of time-outs if the job in question takes over 30 seconds.</p>
+  <p>For current demo purposes, please select only GaijinPot as a search parameter if you receive a timeout error (503). The current research I've come across has recommended background processing requests or false redirects, but it might just come down to heroku's free model.</p>
 </div>
 
 <div id="content">
