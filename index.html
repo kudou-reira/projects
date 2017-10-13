@@ -308,8 +308,9 @@
     <p>A tool that I made to scrape various Japanese rental agency webpages</p>
     <p>(By far the most complex project I've worked on...still working on building out more websites to scrape/UI)</p>
     <p>Technology Used: Create-React-App, React, Redux, Redux-Thunk, Node, Express, MongoDB, Cheerio, Async Library, Passport, OAuth</p>
-    <p>I've found out that heroku automatically times out after a set time. Since the node.js takes a while to scrape all the data across sites, I'll be looking into this error further.</p>
-    <p>For current demo purposes, please select only GaijinPot as a search parameter.</p>
+    <p>I've found out that heroku automatically times out after a set time (30s). Since the node.js takes a while to scrape all the data across sites, I'll be looking into this error further.</p>
+    <p>I've implemented node.js clustering for the sake of improving process speed, but there may be incidents of time-outs.</p>
+    <p>For current demo purposes, please select only GaijinPot as a search parameter if you receive a timeout error (503)</p>
     <p class="btn"><a href="http://rent-japan.herokuapp.com/">See here</a>
     <p class="btn"><a href="https://github.com/kudou-reira/nodeScrape">Source Code</a>
   </div>
